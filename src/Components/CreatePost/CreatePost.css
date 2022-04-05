@@ -3,4 +3,28 @@
     margin-left: auto;
     margin-right:auto;
     margin-bottom: 1rem;
+  
 }
+
+.create-box {
+    width: 50%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  
+    border: 1px solid gray;
+    height: auto;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.name-input {
+    margin-bottom: 1rem;
+}
+
+.name-label {
+    padding-right: 1.75rem;
+}
+
+

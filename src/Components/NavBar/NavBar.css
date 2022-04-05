@@ -1,0 +1,37 @@
+.banner {
+   
+
+    background-color: #8F857D;
+    
+    height: auto;
+   
+    padding-top: 1em;
+    margin-bottom: 10px;
+}
+
+.banner-items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    
+    
+  
+
+  
+}
+
+.logo {
+    font-weight: bold;
+    color: rgb(156, 97, 107);
+    font-size: 2rem;
+}
+
+.logo2 {
+    font-weight: bold;
+    color: rgb(156, 97, 107);
+    font-size: 1rem
+}

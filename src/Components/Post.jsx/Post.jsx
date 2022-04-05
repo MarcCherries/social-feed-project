@@ -3,12 +3,12 @@ import React, { useState, useEffect } from 'react';
 
 const Post = (props) => {
 
-    const [posts, setPosts] = useState([{name:"Chris", comment:"Hey"}])
+   
 
     return ( 
         <div>
-        <h3>{posts.name}</h3>
-        <p>{posts.comment}</p>
+        <h3>{props.posts.name}</h3>
+        <p>{props.posts.comment}</p>
         <button type="submit"></button>
         </div>
      )

@@ -1,10 +1,31 @@
+* {
+    box-sizing: border-box;
+    background-color: #dae7e7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    
+}
+
+
+
 .comment-box {
     border: 1px solid black;
-    padding: 0;
     margin: auto;
+    border-radius: 20px;
     height: auto;
     width: 50%;
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 30px;
    
 
 
+}
+
+.button-group {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 1rem;
+    
 }
