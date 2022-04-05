@@ -1,0 +1,10 @@
+.inactive {
+    background-color: gray;
+}
+.active {
+    background-color: rgb(23, 224, 16);
+}
+
+.active-down {
+    background-color: red;
+}

@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import Post from './Components/Post.jsx/Post';
+import React, { useState} from 'react';
 import CreatePost from './Components/CreatePost/CreatePost';
 import DisplayPosts from './Components/DisplayPosts/DisplayPosts';
 import NavBar from './Components/NavBar/NavBar';
+
 
 function App() {
 
@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div>
-    <NavBar />
+    <NavBar  />
     <CreatePost addPost={addNewPost} posts={posts}/>
     <DisplayPosts newPost={posts} />
    

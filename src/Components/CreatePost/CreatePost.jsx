@@ -15,7 +15,8 @@ const CreatePost = (props) => {
             user: user,
             comment: comment
         }
-        props.addPost(newPost)
+        props.addPost(newPost);
+       
     }
 
     return (   
