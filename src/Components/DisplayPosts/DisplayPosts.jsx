@@ -15,10 +15,10 @@ const DisplayPosts = (props) => {
             
           {props.newPost.map((post) => {
               return (
-                  <div class="comment-box">
-                <h3 class="user-name">{post.user}</h3>
-                <p class="comment-body">{post.comment}</p>
-                <div class="button-group">
+                  <div className="comment-box">
+                <h3 className="user-name">{post.user}</h3>
+                <p className="comment-body">{post.comment}</p>
+                <div className="button-group">
               
                 </div>
                 <CustomButton />

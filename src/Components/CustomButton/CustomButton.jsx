@@ -26,8 +26,8 @@ const CustomButton = (props) => {
 
 
     return ( <div>
-        <button className={buttonClassUp} onClick={handleClickUp}><img src={require('./images/icons8-thumbs-up-50.png')} alt="Thumbs up" width="25"/></button>
-        <button className={buttonClassDown} onClick={handleClickDown}><img src={require('./images/icons8-thumbs-down-50.png')} alt="Thumbs down" width="25"/></button>
+        <img src={require('./images/icons8-thumbs-up-50.png')} alt="Thumbs up" width="25" className={buttonClassUp} onClick={handleClickUp}/>
+        <img src={require('./images/icons8-thumbs-down-50.png')} alt="Thumbs down" width="25" className={buttonClassDown} onClick={handleClickDown}/>
     </div> );
 }
  

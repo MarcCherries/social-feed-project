@@ -17,7 +17,7 @@ function App() {
   return (
     <div>
     <NavBar  />
-    <CreatePost addPost={addNewPost} posts={posts}/>
+    <CreatePost addPost={addNewPost}/>
     <DisplayPosts newPost={posts} />
    
 
