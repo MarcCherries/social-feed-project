@@ -1,6 +1,5 @@
-.inactive {
-    fill: gray;
-}
+
+
 .active {
     fill: rgb(13, 255, 4);
 }
@@ -10,5 +9,21 @@
 }
 
 svg {
+    margin-right: 2.5rem;
+    fill: gray
+   
+}
+.svg-down {
     margin-right: 1rem;
+    transform: scaleX(-1);
+}
+
+svg:hover {
+    width: 30px;
+    height: 35px;
+    margin-bottom: auto;
+}
+
+.like-buttons {
+    margin-left: 30rem;
 }

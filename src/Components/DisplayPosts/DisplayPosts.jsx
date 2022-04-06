@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "./DisplayPosts.css"
 import CustomButton from '../CustomButton/CustomButton';
 

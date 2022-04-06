@@ -6,7 +6,7 @@
 }
 
 .comment-box {
-
+    
     border: 1px solid black;
     margin: auto;
     border-radius: 20px;
@@ -17,19 +17,11 @@
     box-shadow: 10px 5px 5px gray;
 }
 
-.comment-box:hover {
-    box-shadow: none;
-    border: 2px solid rgba(0, 0, 255, 0.548);
-}
 
-.button-group {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    margin: 1rem;   
-}
+
 
 .comment-date {
     color: rgba(0, 0, 0, 0.966);
     font-weight: bold;
 }
+

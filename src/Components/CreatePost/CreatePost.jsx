@@ -14,8 +14,8 @@ const CreatePost = (props) => {
             user: user,
             comment: comment,
         }
-        if (!user || user==="Double-click to type your name..." || !comment || comment==="Double-click to type your name..."){
-            alert("No input detected! Please try again!");
+        if (!user || user==="Double-click to type your name..." || !comment || comment==="Double-click to type your comment..."){
+            alert("Johnny Number 5 says: Neeeeed Input! Please try again!");
         }
     
         else {
@@ -37,6 +37,9 @@ const CreatePost = (props) => {
                 <label className="label-text">Comment</label>
                 <textarea type="text" className="comment-box2"  onDoubleClick={() => setComment("")} onChange={(event) => setComment(event.target.value)} value={comment} ></textarea>
                 <button type="submit" class="button-one btn btn-info" >Post</button>
+                <div className="like-buttons">
+
+    </div> ;
                 </div>
             </form>
         </div>
