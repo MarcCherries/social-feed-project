@@ -19,12 +19,12 @@ const CreatePost = (props) => {
             <form className="create-box" onSubmit={handleSubmit}>
                 <div className="name-input">
                 <label className="name-label">Name</label>
-                <input className="input-field"type="text" size="41" onChange={(event) => setUser(event.target.value)} value={user} name="userName" ></input>
+                <input className="input-field"type="text" size="41" onClick={() => setUser("")} onChange={(event) => setUser(event.target.value)} value={user} ></input>
                 </div>
                 <div className="comment-container">
                 <label className="label-text">Comment</label>
-                <textarea type="text" className="comment-box2" onChange={(event) => setComment(event.target.value)} value={comment} name="userComment"></textarea>
-                <button type="button" class="button-one btn btn-info" >Post</button>
+                <textarea type="text" className="comment-box2"  onClick={() => setComment("")} onChange={(event) => setComment(event.target.value)} value={comment} ></textarea>
+                <button type="submit" class="button-one btn btn-info" >Post</button>
                 </div>
             </form>
         </div>
