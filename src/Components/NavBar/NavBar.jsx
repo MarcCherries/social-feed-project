@@ -1,6 +1,5 @@
 import "./NavBar.css"
 
-
 const NavBar = (props) => {
     return ( 
         <div class="banner" >

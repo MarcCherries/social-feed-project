@@ -3,29 +3,23 @@ import "./DisplayPosts.css"
 import CustomButton from '../CustomButton/CustomButton';
 
 
-
-
-
+const moment = require('moment');
 const DisplayPosts = (props) => {
 
+ 
+  let now = moment();
     
-
-    return ( 
+  return ( 
         <div>
-            
           {props.newPost.map((post) => {
               return (
-                  <div className="comment-box">
-                <h3 className="user-name">{post.user}</h3>
-                <p className="comment-body">{post.comment}</p>
-                <div className="button-group">
-              
-                </div>
-                <CustomButton />
-                </div>
-              )
-             
-              
+              <div className="comment-box">
+              <h3 className="user-name">{post.user}</h3>
+              <p className="comment-body">{post.comment}</p>
+              <p className="comment-date">{now.format("MM/DD/YYYY")}</p>
+              <CustomButton className="custom-button" />
+              </div>
+              )    
           }
           )}
         </div>

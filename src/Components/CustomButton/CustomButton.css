@@ -1,10 +1,14 @@
 .inactive {
-    background-color: gray;
+    fill: gray;
 }
 .active {
-    background-color: rgb(23, 224, 16);
+    fill: rgb(13, 255, 4);
 }
 
 .active-down {
-    background-color: red;
+    fill: red;
+}
+
+svg {
+    margin-right: 1rem;
 }

@@ -1,10 +1,6 @@
 .banner {
-   
-
-    background-color: #8F857D;
-    
+    background-color: #5dbaf7;
     height: auto;
-   
     padding-top: 1em;
     margin-bottom: 10px;
 }
@@ -16,22 +12,17 @@
     list-style-type: none;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid gray;
-    
-    
-  
-
-  
+    border-bottom: 1px solid gray; 
 }
 
 .logo {
     font-weight: bold;
-    color: rgb(156, 97, 107);
+    color: #9BB1FF;
     font-size: 2rem;
 }
 
 .logo2 {
     font-weight: bold;
-    color: rgb(156, 97, 107);
+    color: #9BB1FF;
     font-size: 1rem
 }

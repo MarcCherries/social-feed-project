@@ -1,22 +1,14 @@
-.create-post {
-    width: 50%;
-    margin-left: auto;
-    margin-right:auto;
-    margin-bottom: 1rem;
-  
-}
-
 .create-box {
     width: 50%;
     margin-left: auto;
     margin-right:auto;
     margin-bottom: 1rem;
     margin-top: 2rem;
-  
     border: 1px solid gray;
     height: auto;
     border-radius: 20px;
-    padding: 8px;
+    padding: 1.5rem;
+    box-shadow: 10px 5px 5px gray
 }
 
 .name-input {
@@ -24,7 +16,37 @@
 }
 
 .name-label {
-    padding-right: 1.75rem;
+    padding-right: 2.75rem;
 }
 
+.submit-post {
+    
+    margin-top: 2rem;
+    height: 1.5em;
+    margin-left: 1rem;
+    border-radius: 20px;
+    background-color:#788BFF;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
 
+.comment-box2 {
+    margin-left: 1rem;
+    width: 24.1rem;
+    border-radius: 5px;  
+}
+
+.input-field {
+    border-radius: 5px;
+}
+.comment-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.button-one {
+    height: 1.9rem;
+    margin-top: 2rem;
+    margin-left: .25rem;
+}
